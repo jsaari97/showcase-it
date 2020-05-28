@@ -8,7 +8,8 @@
     "react": "^16.13.1",
     "react-color": "^2.18.1",
     "react-dom": "^16.13.1",
-    "rebass": "^4.0.7"
+    "rebass": "^4.0.7",
+    "three": "^0.117.0"
   },
   "scripts": {
     "start": "react-scripts start",
