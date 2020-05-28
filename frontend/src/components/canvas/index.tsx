@@ -4,5 +4,5 @@ import { useShowcaseCanvas } from "./hook";
 export const Canvas: React.FC = () => {
   const [ref] = useShowcaseCanvas();
 
-  return <canvas ref={ref} />;
+  return <div ref={ref} />;
 };
