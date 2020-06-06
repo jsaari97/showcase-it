@@ -6,7 +6,7 @@
   "author": "Jim Saari",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.13.1",
+    "apollo-server": "^2.14.2",
     "apollo-server-koa": "^2.13.1",
     "class-validator": "^0.12.2",
     "graphql": "^15.0.0",
