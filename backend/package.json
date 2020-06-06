@@ -6,7 +6,6 @@
   "author": "Jim Saari",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.13.1",
     "apollo-server-koa": "^2.13.1",
     "class-validator": "^0.12.2",
     "graphql": "^15.0.0",
@@ -24,6 +23,7 @@
     "@types/koa-router": "^7.4.1",
     "@types/node": "^14.0.5",
     "@types/puppeteer": "^3.0.0",
+    "apollo-server": "^2.14.2",
     "nodemon": "^2.0.4",
     "ts-node": "^8.10.1",
     "typescript": "^3.9.3"
