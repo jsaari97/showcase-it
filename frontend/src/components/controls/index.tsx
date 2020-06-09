@@ -11,15 +11,16 @@ export const Controls: React.FC = () => {
       pt={16}
       pb={8}
       position={["static", "fixed"]}
-      top={8}
-      right={8}
+      bottom={12}
+      right={12}
       width={["auto", "22rem"]}
+      shadow="lg"
     >
       <Stack spacing={8} px={4}>
-        <Box rounded="md" height={24} bg="gray.300" />
-        <Box rounded="md" height={24} bg="gray.300" />
-        <Box rounded="md" height={24} bg="gray.300" />
-        <Button py={8} size="lg" variantColor="green">
+        <Box rounded="md" height={20} bg="gray.300" />
+        <Box rounded="md" height={20} bg="gray.300" />
+        <Box rounded="md" height={20} bg="gray.300" />
+        <Button py={8} size="lg" variantColor="pink">
           Export
         </Button>
       </Stack>

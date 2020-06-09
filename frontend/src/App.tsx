@@ -5,7 +5,7 @@ import { Box } from "@chakra-ui/core";
 
 export const App: React.FC = () => {
   return (
-    <MainLayout bg="green.200">
+    <MainLayout bg="purple.400">
       <Box height={["60vh", "100vh"]} />
       <Controls />
     </MainLayout>
