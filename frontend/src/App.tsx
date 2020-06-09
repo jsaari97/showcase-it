@@ -1,11 +1,11 @@
 import * as React from "react";
 import { MainLayout } from "components/layout/main";
-import { Canvas } from "components/canvas";
+import { Controls } from "components/controls";
 
 export const App: React.FC = () => {
   return (
     <MainLayout>
-      <Canvas />
+      <Controls />
     </MainLayout>
   );
 };
