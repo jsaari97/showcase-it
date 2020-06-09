@@ -1,10 +1,12 @@
 import * as React from "react";
 import { MainLayout } from "components/layout/main";
 import { Controls } from "components/controls";
+import { Box } from "@chakra-ui/core";
 
 export const App: React.FC = () => {
   return (
-    <MainLayout>
+    <MainLayout bg="green.200">
+      <Box height={["60vh", "100vh"]} />
       <Controls />
     </MainLayout>
   );

@@ -1,5 +1,10 @@
 import * as React from "react";
+import { Box } from "@chakra-ui/core";
 
-export const MainLayout: React.FC = ({ children }) => {
-  return <div>{children}</div>;
+interface MainLayoutProps {
+  bg: string;
+}
+
+export const MainLayout: React.FC<MainLayoutProps> = ({ children, bg }) => {
+  return <Box bg={bg}>{children}</Box>;
 };
