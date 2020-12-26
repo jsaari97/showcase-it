@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, Stack, Button } from "@chakra-ui/core";
+import { Box, Stack, Button } from "@chakra-ui/react";
 
 export const Controls: React.FC = () => {
   return (
