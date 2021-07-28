@@ -4,7 +4,7 @@ import koaRouter from "koa-router";
 import koaBody from "koa-body";
 import helmet from "koa-helmet";
 import { buildSchema } from "type-graphql";
-import { ApolloServer } from "apollo-server-koa"
+import { ApolloServer } from "apollo-server-koa";
 
 import { rootRouter } from "./routes";
 
@@ -17,7 +17,7 @@ const bootstrap = async () => {
 
   const server = new ApolloServer({
     schema,
-    playground: true,
+    debug: true,
   });
 
   const routes = new koaRouter().use("/", rootRouter.routes());
@@ -27,6 +27,8 @@ const bootstrap = async () => {
     .use(koaBody())
     .use(routes.routes())
     .use(routes.allowedMethods());
+
+  await server.start();
 
   server.applyMiddleware({ app });
 
