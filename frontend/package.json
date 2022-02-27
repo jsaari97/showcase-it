@@ -7,11 +7,11 @@
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
     "emotion-theming": "^11.0.0",
-    "framer-motion": "^4.1.17",
+    "framer-motion": "^6.2.8",
     "react": "^17.0.0",
     "react-color": "^2.18.1",
     "react-dom": "^17.0.0",
-    "three": "^0.130.1"
+    "three": "^0.138.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,13 +38,13 @@
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.0",
-    "@types/jest": "^26.0.3",
+    "@types/jest": "^27.4.1",
     "@types/node": "^16.4.6",
     "@types/react": "^17.0.0",
     "@types/react-color": "^3.0.2",
     "@types/react-dom": "^17.0.0",
-    "@types/three": "^0.130.1",
-    "react-scripts": "^4.0.0",
+    "@types/three": "^0.137.0",
+    "react-scripts": "^5.0.0",
     "typescript": "^4.0.5"
   }
 }
